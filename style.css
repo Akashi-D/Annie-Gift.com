@@ -1,0 +1,253 @@
+body{
+    background-color: rgb(2,48,32);
+    color: peachpuff;
+    margin: 0;
+}
+
+#intro{
+    display: flex;
+    flex: 50%;
+    width: 100%;
+}
+
+.firstImg{
+    width: 70px;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+}
+.identity{
+    font-size: 20px;
+}
+
+.Introtxt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    line-height: 3.625rem;
+    text-align: center;
+    color: peachpuff;
+    margin-bottom: 16px;
+    max-width: 64rem;
+    font-family: Blippo, fantasy;
+    letter-spacing: 2px;
+}
+.wish-btn{
+    padding: 30px;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
+.wish-show{
+    width: 200px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: peachpuff;
+    color: rgb(2,48,32);
+    border-radius: 0 20px 0 30px;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+#wishes{
+    display: none;
+    overflow: scroll;
+    height: 600px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: peachpuff;
+    color: rgb(2,48,32);
+    border-radius: 50px;
+    padding: 20px;
+}
+.account{
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0 );
+    background-color: rgba(0,0,0,0.9);
+    overflow-x: hidden;
+}
+.account-details{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.account-details h1{
+    padding: 8px;
+    font-size: 36px;
+    color: peachpuff;
+    display: block;
+    transition: 0.3s;
+}
+.close-acc{
+    font-size: 40px;
+    color: peachpuff;
+    cursor: pointer;
+}
+
+.wish1{
+    width: 500px;
+}
+.wish-send{
+    cursor: pointer;
+    background-color: rgb(2,48,32);
+    color: peachpuff;
+    font-weight: 700;
+    padding: 10px;
+    box-shadow: 10px rgb(2,48,32);
+}
+
+.activities{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 50px;
+}
+.event{
+    flex: 31%;
+    max-width: 31%;
+    padding: 0 4px;
+    text-align: center;
+}
+
+.event img{
+    width: 50px;
+}
+
+.event button{
+    width: 100px;
+    cursor: pointer;
+    background-color:  rgb(2,48,32);
+    color:  peachpuff;
+}
+#location{
+    text-align: center;
+    display: none;
+    color:peachpuff;
+}
+#location1{
+    text-align: center;
+    display: none;
+    color:peachpuff;
+}
+#location2{
+    text-align: center;
+    display: none;
+    color:peachpuff;
+}
+.couple{
+    position: relative;
+    width: auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 0px 50px 20px 30px;
+}
+.frame{
+    width: 100%;
+    max-width: 100%;
+}
+
+.frame-img{
+    position: absolute;
+    top: 24%;
+    left: 32%;
+    height: 40%;
+    width: 41%;
+    border-radius: 100%;
+    /* border-image: url("Images/leaf-frame-png-17628.png") 700 round; */
+}
+
+h3{
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+.winecup{
+    width: 50px;
+    height: 70px;
+}
+
+#comments{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: peachpuff;
+    color: rgb(2,48,32);
+}
+
+/* .comment1{
+    flex: 33%;
+    max-width: 33%;
+}
+.comment2{
+    flex: 33%;
+    max-width: 33%;
+}
+.comment3{
+    flex: 33%;
+    max-width: 33%;
+} */
+.comment{
+    flex: 30%;
+    max-width: 30%;
+    padding: 25px;
+}
+.text1{
+    width: 200px;
+    height: 100px;
+    text-shadow: white;
+    margin-top: 100px;
+    background-color: rgb(2,48,32);
+    color: peachpuff;
+    padding: 100px;
+    border: 1px rgb(2,48,32);
+    box-shadow: 5px 6px grey;
+    border-radius: 40px;
+}
+/* .comment{
+    border: 5px solid;
+    width: 300px;
+    height: 100px;
+    background-color: peachpuff;
+    color: rgb(2,48,32);
+    box-shadow: 5px 5px 5px 10px grey;
+    border-radius: 10px;
+    text-align: center;
+    flex: 31%;
+    padding: 0 7px;
+} */
+
+.images p{
+    font-size: 30px;
+}
+.images h2{
+    font-size:35px;
+    letter-spacing: 5px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pics{
+    flex: 29%;
+    max-width: 29%;
+    padding: 30PX;
+    border-radius: 20PX;
+}

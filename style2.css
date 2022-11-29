@@ -1,0 +1,93 @@
+@media only screen and (max-width: 309px){
+  .frame-img{
+    height: 20%;
+    width: 37%;
+    top: 13%;
+    left: 32%;
+    border-radius: 50% 50% 50% 50%;
+  }
+.couple h3{
+  font-size: 15px;
+}
+.images{
+  flex: 100%;
+  max-width: 100%;
+}
+.comment{
+  flex: 100%;
+  max-width: 100%;
+  padding: 25px;
+}
+.pics{
+  flex: 100%;
+  max-width: 100%;
+}
+  #wishes{
+    display: none;
+    overflow: scroll;
+    text-align: justify;
+    height: 400px;
+    width: 300px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: peachpuff;
+    color: rgb(2,48,32);
+    border-radius: 50px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px){
+    .identity{
+      font-size: 10px;
+    }
+    .activities{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .event{
+        flex: 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+  .Introtxt{
+    color: #fff;
+    font-size: 30px;
+  }
+  .frame-img{
+    height: 20%;
+    width: 37%;
+    top: 13%;
+    left: 32%;
+    border-radius: 50% 50% 50% 50%;
+  }
+  .images{
+    flex: 100%;
+    max-width: 100%;
+  }
+  .comment{
+    flex: 100%;
+    max-width: 100%;
+    padding: 25px;
+  }
+  .pics{
+    flex: 100%;
+    max-width: 100%;
+}
+  #wishes{
+    display: none;
+    overflow: scroll;
+    text-align: justify;
+    height: 400px;
+    width: 300px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: peachpuff;
+    color: rgb(2,48,32);
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 10px;
+  }
+}
